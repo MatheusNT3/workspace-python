@@ -105,4 +105,47 @@
 
 # print("Quantidade de notas", len(notas))
 
-# Dicionários São coleções de elementos que são indexados por chaves, ou seja, são pares de chave e valor.
+# Dicionários São estruturas que armazenam chave e valor.
+
+# pessoa = {
+#   "nome": "Matheus",
+#   "idade": 24,
+#   "altura": 1.80
+# }
+
+# print (pessoa["nome"])
+# print (pessoa["idade"])
+# print (pessoa["altura"])
+
+
+
+# PLAYER INFO
+
+player = {
+  "nome": "Woozie",
+  "rank": "Global",
+  "arma": "AK-47",
+  "hp": 100,
+  "municao": 30
+}
+
+print(player["nome"])
+print(player["rank"])
+print(player["arma"])
+print(player["hp"])
+print(player["municao"])
+
+# Lista de inimigos
+
+npcs = [
+  {"nome": "Malenia", "dano": 48, "hp": 1000, "exp": 100},
+  {"nome": "Radahn", "dano": 68, "hp": 2000, "exp": 250},
+  {"nome": "Mesmer", "dano": 46, "hp": 1200, "exp": 90},
+  {"nome": "Radagon", "dano": 52, "hp": 1800, "exp": 180},
+]
+
+print(npcs[0]["nome"]), print(npcs[0]["dano"]), print(npcs[0]["hp"]), print(npcs[0]["exp"])
+print(npcs[1]["nome"]), print(npcs[1]["dano"]), print(npcs[1]["hp"]), print(npcs[1]["exp"])
+print(npcs[2]["nome"]), print(npcs[2]["dano"]), print(npcs[2]["hp"]), print(npcs[2]["exp"])
+print(npcs[3]["nome"]), print(npcs[3]["dano"]), print(npcs[3]["hp"]), print(npcs[3]["exp"])
+
